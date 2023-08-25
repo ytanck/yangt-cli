@@ -1,5 +1,5 @@
 {
-  "name": "test-cli",
+  "name": "yangt-cli",
   "version": "1.0.0",
   "description": "a simple cli",
   "main": "index.js",
