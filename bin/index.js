@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-console.log("我是入口文件....");
+console.log("我是入口文件...");
 const program = require("commander");
 const chalk = require("chalk");
 const Inquirer = require("inquirer");
@@ -10,7 +10,7 @@ program.on("--help", () => {
   console.log();
   console.log(
     `Run ${chalk.cyan(
-      "yang <command> --help"
+      "yt <command> --help"
     )} for detailed usage of given command.
   `
   );
@@ -52,7 +52,7 @@ const version = require("../package.json").version;
 
 program
   // 配置脚手架名称
-  .name("yang")
+  .name("yt")
   // 配置命令格式
   .usage(`<command> [option]`)
   // 配置版本号

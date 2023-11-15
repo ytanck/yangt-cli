@@ -5,6 +5,10 @@
 `npm install yangt-cli -g`
 
 ### 使用
-`yang create my-project`
+`yt create my-project`
+
+<!-- 本地开发：npm link 后再执行相关命令。
+  由于网络原因，将由github下载改为从gitee下载template
+-->
 
 

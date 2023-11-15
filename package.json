@@ -1,10 +1,11 @@
 {
   "name": "yangt-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a simple cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/index.js"
   },
   "keywords": [
     "cli",
@@ -13,9 +14,9 @@
     "react"
   ],
   "author": "yt_anck@163.com",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
-    "yang": "bin/index.js"
+    "yt": "bin/index.js"
   },
   "dependencies": {
     "axios": "^1.4.0",
